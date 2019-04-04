@@ -5,5 +5,6 @@ def square_array(array)
     square = element * element
     puts #{element}
     new_array << square 
+    binding.pry
   end 
 end
